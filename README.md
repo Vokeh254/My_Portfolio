@@ -2,7 +2,6 @@
 
 A modern, responsive portfolio website showcasing my skills, projects, and experience as a Front-End Developer. Built with pure HTML5 and CSS3, featuring stunning animations and an intuitive user interface.
 
-![Portfolio Preview]([https:[//via.placeholder.com/800x400?text=Portfolio+Preview](https://kelvin-njoroge-portfolio.netlify.app/))
 
 ## 🌟 Features
 
