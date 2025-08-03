@@ -2,7 +2,6 @@
 
 A modern, responsive portfolio website showcasing my skills, projects, and experience as a Front-End Developer. Built with pure HTML5 and CSS3, featuring stunning animations and an intuitive user interface.
 
-![Portfolio Preview](https://via.placeholder.com/800x400?text=Portfolio+Preview)
 
 ## 🌟 Features
 
@@ -48,10 +47,9 @@ portfolio/
 ├── assets/            # Assets folder
 │   ├── Kelvin_Njoroge_CV.pdf
 │   ├── about-image.jpg
-│   ├── project1.jpg
-│   ├── project2.jpg
-│   ├── project3.jpg
-│   └── project4.jpg
+│   ├── serena-bites.jpg
+│   ├── eccormerc.jpg
+│   ├── real_estate.jpg
 └── profile pic.png    # Profile image
 ```
 
@@ -65,8 +63,8 @@ portfolio/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/portfolio.git
-   cd portfolio
+   git clone https://github.com/vokeh254/My-portfolio.git
+   cd My-portfolio
    ```
 
 2. **Open locally**
@@ -143,21 +141,11 @@ The portfolio is fully responsive with breakpoints for:
 
 ## 🚀 Deployment
 
-### GitHub Pages
-1. Push your code to a GitHub repository
-2. Go to repository Settings → Pages
-3. Select source branch (usually `main`)
-4. Your site will be available at `https://yourusername.github.io/repository-name`
-
 ### Netlify
 1. Drag and drop your project folder to [Netlify](https://netlify.com)
 2. Or connect your GitHub repository
 3. Your site will be live instantly with a custom URL
 
-### Vercel
-1. Install Vercel CLI: `npm i -g vercel`
-2. Run `vercel` in your project directory
-3. Follow the prompts to deploy
 
 ## 🎨 Animation Details
 
@@ -174,15 +162,6 @@ The portfolio is fully responsive with breakpoints for:
 - Efficient keyframe animations
 - Minimal repaints and reflows
 - GPU-accelerated properties
-
-## 📊 Browser Support
-
-| Browser | Version |
-|---------|---------|
-| Chrome  | 60+     |
-| Firefox | 55+     |
-| Safari  | 12+     |
-| Edge    | 79+     |
 
 ## 🔧 Development
 
@@ -206,7 +185,6 @@ Potential improvements for future versions:
 - [ ] Blog section for sharing articles
 - [ ] Multi-language support
 - [ ] Advanced animations with CSS @scroll-timeline
-- [ ] PWA features (Service Worker, Manifest)
 
 ## 🤝 Contributing
 
@@ -241,7 +219,6 @@ This project is open source and available under the [MIT License](LICENSE).
 - **Unsplash** - For beautiful background images
 - **Google Fonts** - For the Poppins font family
 - **Boxicons** - For the icon library
-- **CSS Gradient** - For gradient inspiration
 
 ---
 
