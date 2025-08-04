@@ -64,16 +64,6 @@ html {
     --transition-base: 0.3s ease;
     --transition-slow: 0.5s ease;
 }
-
-/* Dark Mode Variables */
-[data-theme="dark"] {
-    --text-primary: #f9fafb;
-    --text-secondary: #d1d5db;
-    --bg-primary: #0f172a;
-    --bg-secondary: #1e293b;
-    --border-color: #374151;
-}
-
 /* = BASE STYLES  */
 body {
     font-family: var(--font-family);
@@ -191,7 +181,7 @@ img {
     top: 0;
     left: 0;
     width: 100%;
-    background: rgba(255, 255, 255, 0.95);
+   
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     border-bottom: 2px var(--gradient-primary);
@@ -210,7 +200,9 @@ img {
     justify-content: space-between;
     padding: var(--spacing-sm);
 }
-
+.logo{
+     background: rgba(255, 255, 255, 0.95);
+}
 .logo a {
     font-size: var(--font-size-2xl);
     font-weight: 700;
@@ -225,6 +217,8 @@ img {
 }
 
 .nav {
+    background-color: var(--gradient-primary);
+    padding-left: 20%;
     display: flex;
     align-items: center;
     gap: var(--spacing-lg);
@@ -295,43 +289,7 @@ img {
     background: var(--primary-color);
 }
 
-.sun-icon,
-.moon-icon {
-    font-size: 14px;
-    transition: opacity var(--transition-base);
-}
 
-.sun-icon {
-    color: #fbbf24;
-}
-
-.moon-icon {
-    color: #60a5fa;
-    opacity: 0;
-}
-
-.theme-checkbox:checked + .theme-label .sun-icon {
-    opacity: 0;
-}
-
-.theme-checkbox:checked + .theme-label .moon-icon {
-    opacity: 1;
-}
-
-.toggle-ball {
-    position: absolute;
-    width: 19px;
-    height: 19px;
-    background: white;
-    border-radius: 50%;
-    top: 3px;
-    left: 3px;
-    transition: transform var(--transition-base);
-}
-
-.theme-checkbox:checked + .theme-label .toggle-ball {
-    transform: translateX(25px);
-}
 
 /* Mobile Menu */
 .hamburger {
@@ -363,6 +321,7 @@ img {
 
 /* = HOME SECTION  */
 .home {
+    background-image: url('https://cdn.pixabay.com/video/2024/03/01/202587-918431513_large.mp4');
     min-height: 100vh;
     display: flex;
     align-items: center;
